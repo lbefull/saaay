@@ -26,6 +26,6 @@ export class AuthController {
     console.log(req.user);
     const result = await this.authService.signInWithGoogle(req);
     res.cookie('access_token', result.access_token);
-    res.redirect('http://i6b203.p.ssafy.io:8080');
+    res.redirect('');
   }
 }

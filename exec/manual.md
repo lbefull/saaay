@@ -11,7 +11,7 @@
 ## 1. git clone
 
 ```shell
-git clone https://lab.ssafy.com/s06-webmobile1-sub2/S06P12B203.git
+git clone https://github.com/lbefull/saaay.git
 ```
 
 ## 2. Front End

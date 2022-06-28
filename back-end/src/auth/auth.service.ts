@@ -10,9 +10,9 @@ export class AuthService {
     const data = {
       code: accessToken,
       client_id:
-        '72977505379-1jusaas65jpecfmsh0q7g0a36itss7bm.apps.googleusercontent.com',
-      client_secret: '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',
-      redirect_uri: 'http://i6b203.p.ssafy.io:3000/auth/google/redirect',
+        '',
+      client_secret: '',
+      redirect_uri: '',
       grant_type: 'authorization_code',
     };
     const newLocal = await axios.post(

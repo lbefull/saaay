@@ -21,7 +21,7 @@ export async function deleteEvent({}, event) {
   const accessToken = Cookies.get("access_token");
   await axios({
     method: "delete",
-    url: "http://i6b203.p.ssafy.io:3000/schedule/delete",
+    url: "",
     data: event,
     headers: {
       Authorization: `Bearer ${accessToken}`,
